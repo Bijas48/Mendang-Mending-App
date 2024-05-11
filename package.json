@@ -1,0 +1,19 @@
+{
+  "name": "mendang-mending-gemini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=dev node --watch --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "Riza Fahmi",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.1",
+    "dotenv": "^16.4.5",
+    "marked": "^12.0.2"
+  }
+}
